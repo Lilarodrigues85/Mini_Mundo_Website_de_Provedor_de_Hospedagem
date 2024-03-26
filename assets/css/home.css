@@ -133,5 +133,44 @@
   text-decoration: none;
 }
 
+.informacoes{
+  padding: 80px 0px;
+  text-align: center;
+}
 
+.informacoes h2 {
+  width: 900px;
+  font-size: 32px;
+  margin: 0px auto 60px;
+}
 
+.informacoes span{
+  color: var(--cor6);
+}
+
+.container-informacoes{
+  position: relative;
+  height: 240px;
+}
+
+.container-informacoes div{
+  width: 33%;
+  position: absolute;
+  top: 0;
+}
+
+.card2{
+  left: 455px;
+}
+
+.card3{
+  right: 0;
+}
+
+.container-informacoes div img{
+  width: 50%
+}
+
+.container-informacoes h3 {
+  
+}
