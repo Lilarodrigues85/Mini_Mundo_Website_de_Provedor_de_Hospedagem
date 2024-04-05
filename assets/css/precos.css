@@ -7,3 +7,154 @@
   --cor6: #2f86d6;
   --cor7: rgba(47,134,214,1);
 }
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.menu1 .topo{
+  width: 100%;
+  background-color: var(--cor7);
+  padding: 35px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.topo img{
+  width: 50px;
+  height: 50px;
+}
+
+.lt{
+  margin-left: 15px;
+}
+
+.lt h1{
+  font-size: 32px;
+}
+
+.lt p{
+  font-size: 16px;
+  color: var(--cor1);
+  margin-top: -5px;
+}
+
+.menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 200px;
+  gap: 15px;
+}
+
+.menu a{
+  text-decoration: none;
+  font-size: 18px;
+  color: var(--cor1);
+}
+
+.menu a:hover{
+  color: var(--cor5);
+}
+
+.conteudo-principal-tabela {
+  width: 100%;
+  padding: 100px 0px;
+}
+
+.conteudo-principal-tabela table{
+  width: 1024px;
+  margin: auto auto;
+}
+
+.info .branco{
+  background-color: var(--cor1);
+}
+
+.info th{
+  background-color: var(--cor3);
+  padding: 5px;
+}
+
+.conteudo{
+  background-color: var(--cor3);
+  padding: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: left;
+}
+
+tbody td{
+  text-align: center;
+  font-size: 14px;
+}
+
+.pontinho {
+  font-size: 60px;
+  color: var(--cor6);
+}
+
+.rodape{
+  width: 100%;
+  padding: 100px 0px;
+  background-color: #2f86d6;
+}
+
+.img-rodape {
+  display: flex;
+  justify-content: center;
+}
+
+.img-rodape img{
+  width: 80px;
+  height: 80px;
+}
+
+.lt2 h1{
+  font-size: 32px; 
+  color: #000000; 
+}
+
+.lt2{
+  margin-left: 15px;
+}
+
+.lt2 p{
+  font-size: 16px;
+  color: var(--cor1);
+}
+
+.contato{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.contato p{
+  line-height: 40px;
+  color: var(--cor1);
+  font-size: 16px;
+}
+
+.lila {
+  width: 100%;
+  background-color: var(--cor2) ;
+  padding: 20px 0px;
+  
+}
+
+.lila p{
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.lila a{
+  text-decoration: none;
+  color: var(--cor6);
+}
