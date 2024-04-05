@@ -18,5 +18,319 @@
 
 .topo{
   width: 100%;
-  
+  padding: 35px 0px
 }
+
+.container-topo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15%;
+}
+
+.topo2{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.lt h1{
+  font-size: 32px; 
+  color: var(--cor7); 
+}
+
+.lt p{
+  font-size: 16px;
+  color: var(--cor6);
+  margin-top: -10px;
+}
+
+.topo2 img{
+  width: 55px;
+  height: 55px;
+}
+
+.menu{
+  display: flex;
+  gap: 15px;
+}
+
+.menu a{
+  text-decoration: none;
+  color: var(--cor5);
+}
+
+.menu a:hover{
+  color: var(--cor6);
+}
+
+.banner{
+  width: 100%;
+  padding: 180px 0px;
+  background-color: var(--cor6);
+}
+
+.container-banner{
+  min-width: 1024px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-texto{
+  width: 470px;
+  color: var(--cor1);
+}
+
+.banner-texto p{
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.banner-texto h2{
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.container-banner img{
+  width: 50%;
+}
+
+.primeiro-anuncio{
+  width: 100%;
+  padding: 40px 0px;
+  background-color: var(--cor5);
+}
+
+.container-anuncio1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 350px;
+}
+
+.primeiro-anuncio-texto{
+  width: 600px;
+}
+
+.primeiro-anuncio-texto h3 {
+  color: var(--cor1);
+  font-size: 24px;
+}
+
+.primeiro-anuncio-texto p{
+  color: var(--cor1);
+  font-size: 16px;
+}
+
+.botao{
+  display: flex;
+  align-items: center;
+  background-color: var(--cor6);
+  padding: 10px;
+}
+
+.botao a {
+  font-size: 18px;
+  color: var(--cor1);
+  text-decoration: none;
+}
+
+.informacoes {
+  width: 100%;
+  padding: 100px 0px;
+  background-color: var(--cor1);
+}
+
+.lt1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lt1 h2{
+  width: 900px;
+  text-align: center;
+  color: var(--cor7);
+  font-size: 32px;
+}
+
+.lt1 span{
+  color: var(--cor6);
+}
+
+.container-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.container-card h3 {
+  font-size: 18px;
+  color: var(--cor7);
+}
+
+.container-card p{
+  font-size: 16px;
+  color: var(--cor7);
+}
+
+.card img{
+  width: 100px;
+}
+
+.planos {
+  width: 100%;
+  padding: 100px 50px;
+  background-color: var(--cor1);
+}
+
+.planos h2{
+  text-align: center;
+  color: var(--cor7);
+  font-size: 32px;
+}
+
+.planos span{
+  color: var(--cor6);
+}
+
+.tabela-planos {
+  margin: 100px auto;
+  text-align: center;
+  width: 1024px;
+  box-shadow: 0px 0px 25px #2f86d6;
+}
+
+.indice{
+  font-size: 18px;
+  color: var(--cor7);
+}
+
+.indicacao{
+  font-size: 18px;
+  color: var(--cor4);
+}
+
+.img-table img {
+  width: 150px;
+}
+
+.table-informacao{
+  line-height: 40px;
+}
+
+.table-informacao  tr:nth-of-type(odd){
+  font-size: 16px;
+  background-color: var(--cor3);
+}
+
+.table-informacao  tr:nth-of-type(even){
+  font-size: 16px;
+  background-color: var(--cor2);
+}
+
+.segundo-anuncio{
+  width: 100%;
+  padding: 40px 0px;
+  background-color: var(--cor6);
+}
+
+.container-anuncio2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 350px;
+}
+
+.segundo-anuncio-texto{
+  width: 600px;
+}
+
+.segundo-anuncio-texto h3 {
+  color: var(--cor1);
+  font-size: 24px;
+}
+
+.segundo-anuncio-texto p{
+  color: var(--cor1);
+  font-size: 16px;
+}
+
+.botao2{
+  display: flex;
+  align-items: center;
+  background-color: var(--cor5);
+  padding: 10px;
+}
+
+.botao2 a {
+  font-size: 18px;
+  color: var(--cor1);
+  text-decoration: none;
+}
+
+.rodape{
+  width: 100%;
+  padding: 100px 0px;
+}
+
+.img-rodape {
+  display: flex;
+  justify-content: center;
+}
+
+.img-rodape img{
+  width: 80px;
+  height: 80px;
+}
+
+.lt3 h1{
+  font-size: 32px; 
+  color: var(--cor7); 
+}
+
+.lt3{
+  margin-left: 15px;
+}
+
+.lt3 p{
+  font-size: 16px;
+  color: var(--cor6);
+  margin-top: -10px;
+}
+
+.contato{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.contato p{
+  line-height: 40px;
+  color: var(--cor7);
+  font-size: 16px;
+}
+
+.lila {
+  width: 100%;
+  background-color: var(--cor2) ;
+  padding: 20px 0px;
+}
+
+.lila p{
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.lila a{
+  color: var(--cor6);
+  text-decoration: none;
+}
+
